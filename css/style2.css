@@ -1,0 +1,148 @@
+.main{
+    margin-top: 70px;
+    font-family: "Mulish";
+    margin-bottom: 70px;
+}
+.main .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .product-box{
+    width: 50%;
+    display: flex;
+}
+.main .product-box ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 15%;
+}
+.main .product-box ul li{
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}
+.main .product-box ul li img{
+    width: 100%;
+    border: 1px solid white;
+}
+.main .product-box .place-img{
+    width: 85%;
+    padding: 10px;
+}
+.main .product-box .place-img img{
+    width: 100%;
+}
+.main .product-shop{
+    width: 50%;
+    padding-left: 10px;
+}
+.main .product-shop .product-bonus{
+    width: 60%;
+}
+.main .product-shop .product-bonus .bonus-img{
+    width: 50%;
+}
+.main .product-shop .product-bonus .gift-content{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 10px;
+    line-height: 30px;
+    color: black;
+    display: none;
+}
+.main .product-shop .product-bonus .bonus-img:hover .gift-content{
+    display: inline-block;
+}
+.main .product-shop .product-bonus img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.main .product-shop .product-bonus .bonus-img:hover .gift-content{
+    display: block;
+}
+.main .product-shop .product-bonus .product-bonus-content{
+    display: flex;
+}
+.main .product-shop .product-submit{
+    margin-top: 30px;
+}
+.main .product-shop .product-submit input{
+    width: 60%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    border-radius: 6px;
+    background-color: darkorange;
+}
+.main .product-shop .reason{
+    margin-top: 30px; 
+    width: 60%;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.main .product-shop .reason ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.main .product-content{
+    width: 70%;
+    margin-top: 50px;
+}
+.main .product-content .menu ul{
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+}
+.main .product-content .menu ul li{
+    line-height: 20px;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.main .product-content .content{
+    margin-top: 30px;
+}
+.main .product-content .content .motasp{
+    text-align: center;
+    width: 100%;
+}
+.main .product-content .content .info{
+    display: none;
+}
+.main .product-content .content .thuonghieu{
+    display: none;
+}.main .product-content .content .motasp span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.main .product-content .content .motasp img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.main .product-content .content .info{
+    margin-left: 30px;
+}
+.main .product-content .content .info span{
+    font-weight: bold;
+}
+.main .product-content .content .info ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main .adv{
+    width: 30%;
+    margin-top: 80px;
+}
+.main .adv img{
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
